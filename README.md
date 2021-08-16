@@ -42,6 +42,11 @@ Check [this playbook](molecule/custom/playbook.yml) for example of role call wit
 | `bind9_enable_statistics` | Value for enable keeping statistics ('true' by default). |
 | `bind9_slave_zones` | Optional list of slave zones to create. Check [this playbook](molecule/custom/playbook.yml) for usage example. |
 
+## Supported Ubuntu codenames
+
+- bionic
+- focal
+
 ## FAQ
 
 None, so far.

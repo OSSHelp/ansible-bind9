@@ -1,3 +1,7 @@
+statistics-channels {
+    inet 127.0.0.1 port 8653 allow { 127.0.0.1; };
+    inet ::1 port 8653 allow { ::1; };
+};
 options {
 	directory "{{ bind9_directory }}";
 {% if bind9_dnssec_validation.enabled %}

@@ -5,7 +5,7 @@ bind9_packages:
   - bind9utils
 
 bind9_ipv4_only: false
-bind9_default_trusted_addresses: [ '127.0.0.1', '::1' ]
+bind9_default_trusted_addresses: [ '127.0.0.1', '::1', '10.0.0.0/8', 'fd00::/8']
 bind9_directory: /var/cache/bind
 bind9_auth_nxdomain: 'no'
 bind9_custom_trusted_addresses: []
